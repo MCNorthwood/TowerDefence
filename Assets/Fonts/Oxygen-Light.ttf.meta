@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 3c3db60f9898aab46a63bff1cc60d9f3
+timeCreated: 1482435000
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Oxygen
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 1c2275990ee1e534194c9d1e4c21d1ba, type: 3}
+  - {fileID: 12800000, guid: 05db018f5049e0c4d9df9beeaf85eca7, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
