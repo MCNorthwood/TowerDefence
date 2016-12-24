@@ -4,6 +4,7 @@ using System.Collections;
 public class Turret : MonoBehaviour {
 
     private Transform target;
+    private Enemy targetEnemy;
 
     [Header("General")]
     public float range = 15f;
@@ -15,6 +16,10 @@ public class Turret : MonoBehaviour {
 
     [Header("Use Laser")]
     public bool useLaser = false;
+
+    public int damageOverTime = 30;
+    public float slowAmount = .5f;
+
     public LineRenderer lineRenderer;
     public ParticleSystem impactEffect;
     public Light impactLight;
@@ -51,6 +56,7 @@ public class Turret : MonoBehaviour {
         if(nearestEnemy != null && shortestDistance <= range)
         {
             target = nearestEnemy.transform;
+            targetEnemy = nearestEnemy.GetComponent<Enemy>();
         }
         else
         {
@@ -102,17 +108,23 @@ public class Turret : MonoBehaviour {
 
     void Laser()
     {
+        targetEnemy.GetComponent<Enemy>().TakeDamage(damageOverTime * Time.deltaTime);
+        targetEnemy.Slow(slowAmount);
+
         if (!lineRenderer.enabled)
         {
             lineRenderer.enabled = true;
             impactEffect.Play();
             impactLight.enabled = true;
         }
+
         lineRenderer.SetPosition(0, firePoint.position);
         lineRenderer.SetPosition(1, target.position);
 
         Vector3 dir = firePoint.position - target.position;
+
         impactEffect.transform.position = target.position + dir.normalized;
+
         impactEffect.transform.rotation = Quaternion.LookRotation(dir);        
     }
 
