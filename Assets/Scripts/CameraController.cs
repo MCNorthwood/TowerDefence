@@ -1,19 +1,17 @@
 ﻿using UnityEngine;
 
 public class CameraController : MonoBehaviour {
-
-    private bool doMovement = true;
-
+    
     public float panSpeed = 30f;
     public float panBorderThickness = 10f;
 
     public float scrollSpeed = 5f;
     public float minY = 20f;
-    public float maxY = 80f;
-    public float minX = 10f;
-    public float maxX = 100f;
-    public float minZ = -100f;
-    public float maxZ = -200f;
+    public float maxY = 90f;
+    public float minX = 5f;
+    public float maxX = 70f;
+    //public float minZ = -100f;
+    //public float maxZ = -200f;
 	
 	// Update is called once per frame
 	void Update () {
@@ -21,16 +19,6 @@ public class CameraController : MonoBehaviour {
         if (GameManager.GameIsOver)
         {
             this.enabled = false;
-            return;
-        }
-
-        if (Input.GetKeyDown(KeyCode.Escape))
-        {
-            doMovement = !doMovement;
-        }
-
-        if (!doMovement)
-        {
             return;
         }
 
