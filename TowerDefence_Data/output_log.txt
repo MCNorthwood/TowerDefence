@@ -1,0 +1,86 @@
+Initialize engine version: 5.5.0f3 (38b4efef76f0)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTX 1060 6GB (ID=0x1c03)
+    Vendor:   NVIDIA
+    VRAM:     3072 MB
+    Driver:   21.21.13.7633
+Begin MonoManager ReloadAssembly
+Platform assembly: G:\Unity\TowerDefence\TowerDefence_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading G:\Unity\TowerDefence\TowerDefence_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: G:\Unity\TowerDefence\TowerDefence_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading G:\Unity\TowerDefence\TowerDefence_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: G:\Unity\TowerDefence\TowerDefence_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading G:\Unity\TowerDefence\TowerDefence_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: G:\Unity\TowerDefence\TowerDefence_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading G:\Unity\TowerDefence\TowerDefence_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: G:\Unity\TowerDefence\TowerDefence_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll (this message is harmless)
+Loading G:\Unity\TowerDefence\TowerDefence_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll into Unity Child Domain
+- Completed reload, in  0.098 seconds
+Platform assembly: G:\Unity\TowerDefence\TowerDefence_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: G:\Unity\TowerDefence\TowerDefence_Data\Managed\System.dll (this message is harmless)
+desktop: 1920x1080 59Hz; virtual: 3840x1080 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 3.762593 ms
+Setting up 2 worker threads for Enlighten.
+  Thread -> id: 36a4 -> priority: 1 
+  Thread -> id: 3524 -> priority: 1 
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 22.734472 ms
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 388.
+Total: 0.515322 ms (FindLiveObjects: 0.021972 ms CreateObjectMapping: 0.014818 ms MarkObjects: 0.207712 ms  DeleteObjects: 0.270052 ms)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 2.595261 ms
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2076.
+Total: 1.631300 ms (FindLiveObjects: 0.057485 ms CreateObjectMapping: 0.034235 ms MarkObjects: 0.424112 ms  DeleteObjects: 1.115466 ms)
+
+Standard Turret Selected
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Standard Turret Selected
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Turret build!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Turret build!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Turret build!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Turret build!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Not enough money to build that!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Not enough money to build that!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.734262 ms
+
+Unloading 408 unused Assets to reduce memory usage. Loaded Objects now: 439.
+Total: 2.369920 ms (FindLiveObjects: 0.042666 ms CreateObjectMapping: 0.040878 ms MarkObjects: 0.299178 ms  DeleteObjects: 1.986174 ms)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 3.778944 ms
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 467.
+Total: 1.092217 ms (FindLiveObjects: 0.031680 ms CreateObjectMapping: 0.029892 ms MarkObjects: 0.456815 ms  DeleteObjects: 0.573318 ms)
+
